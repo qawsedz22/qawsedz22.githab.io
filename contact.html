@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top border-bottom">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">Small Business</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Change language
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Russian</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> <!--  Навигация -->
+    <div class="container py-3 py-sm-5 mt-5">
+        <h1 class="display-1 text-center mb-4">Contact</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Address:</h2>
+                <h5 class="fw-bold">Company name</h5>
+                <h5 class="fw-normal">Street Name</h5>
+                <h5 class="fw-normal">ZIP CODE and city</h5>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <a class="h5 fw-normal">(123) 456-7889</a>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-envelope"></i>
+                    <a class="h5 fw-normal">info@domai.com</a>
+                </div>
+
+                <h2>Send us message:</h2>
+                <form class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="mb-2">Name:</p>
+                        <div class="input-group mb-3">
+                            
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Имя пользователя"
+                                aria-label="Имя пользователя" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="mb-2">Email:</p>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                            <input type="text" class="form-control" placeholder="Имя пользователя"
+                                aria-label="Имя пользователя" aria-describedby="basic-addon1">
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <p class="mb-2">Telephone:</p>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+                            <input type="text" class="form-control" placeholder="Имя пользователя"
+                                aria-label="Имя пользователя" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="mb-2">Department:</p>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                            <select class="form-select" aria-label="Пример выбора по умолчанию">
+                                <option selected>Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <p class="form-text">Please select the recipient of your message</p>
+                    </div>
+
+                    
+
+                </form>
+                <label for="exampleFormControlTextarea1" class="form-label mt-3">Message:</label>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt"></i></span>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <input class="btn btn-primary " type="submit" value="submit">
+                    <input class="btn btn-primary btn-secondary" type="reset" value="reset">
+                </form>
+            </div>
+
+
+
+            <div class="col-lg-6">
+                <h2>Opening hours:</h2>
+                <div class="d-flex justify-content-between h5 fw-normal">
+                    <span>Monday-Thursday:</span>
+                    <span>10 am - 6 pm</span>
+                </div>
+                <div class="d-flex justify-content-between h5 fw-normal">
+                    <span>Friday-Saturday:</span>
+                    <span>10 am - 6 pm</span>
+                </div>
+                <div class="d-flex justify-content-between mb-5 h5 fw-normal">
+                    <span>Sunday:</span>
+                    <span>10 am - 6 pm</span>
+                </div>
+                <h2>Where to find us:</h2>
+                <img src="img/800x600.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <footer class="bg-light mt-5">
+        <div class="container pt-3">
+          <div class="row">
+            <div class="col-12 col-md-6 col-xl-3 mb-3">
+              <div>
+                <div class="d-flex align-items-center mb-2">
+                  <p class="h5">Quick links</p5>
+                </div>
+              </div>
+              <p><a href="">Home</a></p>
+              <p><a href="">Services</a></p>
+              <p><a href="">About</a></p>
+              <p><a href="">Team</a></p>
+              <p><a href="">Contact</a></p>
+            </div>
+  
+            <div class="col-12 col-md-6 col-xl-3 mb-3">
+              <div>
+                <div class="d-flex align-items-center">
+                  <p class="h5">Informatiom</p5>
+                </div>
+              </div>
+              <p><a href="">Legal information</a></p>
+              <p><a href="">Job opportunities</a></p>
+              <p><a href="">Frequently asked questions</a></p>
+            </div>
+  
+            <div class="col-12 col-md-6 col-xl-3 mb-3">
+              <div>
+                <div class="d-flex align-items-center">
+                  <p class="h5">Follow us</p5>
+                </div>
+              </div>
+              <p><a href=""><i class="fab fa-facebook"></i>Facebook</a></p>
+              <p><a href=""><i class="fab fa-instagram"></i>Instagram</a></p>
+              <p><a href=""><i class="fab fa-twitter"></i>Twitter</a></p>
+              <p><a href=""><i class="fab fa-youtube"></i>Youtube</a></p>
+              <p><a href=""><i class="fab fa-linkedin"></i>Linkedin</a></p>
+            </div>
+  
+            <div class="col-12 col-md-6 col-xl-3 mb-3">
+              <div>
+                <div class="d-flex align-items-center">
+                  <p class="h5">Our locatiom</p5>
+                </div>
+              </div>
+              <h6>Company name</h6>
+              <p>Street name</p>
+              <p>Zip code</p>
+              <p><i class="fas fa-phone"></i><a href="">(123) 456-7890</a></p>
+              <p><i class="fas fa-envelope"></i><a href="">info@idomain.com</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
